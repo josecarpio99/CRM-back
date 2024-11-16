@@ -24,7 +24,7 @@ class DealSeeder extends Seeder
     public function run(): void
     {
         // en proceso deals
-        // Deal::factory(20)->create();
+        Deal::factory(20)->create();
 
         // won deals
         Deal::factory(5)->create([

@@ -28,6 +28,7 @@ class CustomerFactory extends Factory
 
         return [
             'is_company' => fake()->boolean(),
+            'company_name' => fake()->company(),
             'name' => fake()->name(),
             'mobile' => fake()->phoneNumber(),
             'email' => fake()->email(),
